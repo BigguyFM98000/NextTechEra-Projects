@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NextTechEra Task 3</title>
+		<style>
+			marquee {
+				background-color: green;
+			}
+			body {
+				background-color: cornsilk;
+			}
+			h1 {
+				color: blueviolet;
+			}
+			p {
+				font-size: 20px;
+			}
+			form {
+				border: 2px solid black;
+			}
+			button {
+				border-radius: 7px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>NextTechEra Task 3</h1>
+		</header>
+		<section>
+			<marquee>Welcome To NextTechEra</marquee>
+			<marquee direction="right">Welcome To NextTechEra</marquee>
+			<marquee direction="down" scrollamount="10"
+				>Welcome To NextTechEra</marquee
+			>
+			<marquee behavior="alternate">Welcome To NextTechEra</marquee>
+		</section>
+		<hr />
+		<br />
+		<section>
+			<form>
+				<div>
+					<label for="fullname">Full Name:</label>
+					<input
+						type="text"
+						name="fullname"
+						id="fullname"
+						placeholder="Enter your full name"
+					/>
+				</div>
+				<div>
+					<label for="dob">Date of Birth:</label>
+					<input type="date" name="dob" id="dob" />
+				</div>
+				<div>
+					<label for="email">Email Address:</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter a valid email address"
+					/>
+				</div>
+				<div>
+					<label for="password">Password:</label>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						placeholder="Enter your password"
+					/>
+				</div>
+				<div>
+					<label for="classtime">Class Time:</label>
+					<input type="time" name="classtime" id="classtime" />
+				</div>
+				<div>
+					<p>Select your hobbies:</p>
+					<input type="checkbox" name="hobbies" id="gaming" />
+					<label for="gaming">Gaming</label>
+					<input type="checkbox" name="hobbies" id="swimming" />
+					<label for="swimming">Swimming</label>
+					<input type="checkbox" name="hobbies" id="cricket" />
+					<label for="cricket">Cricket</label>
+					<input type="checkbox" name="hobbies" id="cycling" />
+					<label for="cycling">Cycling</label>
+					<input type="checkbox" name="hobbies" id="soccer" />
+					<label for="soccer">Soccer</label>
+				</div>
+				<div>
+					<p>Enter your gender:</p>
+					<input type="radio" name="gender" id="male" />
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female" />
+					<label for="female">Female</label>
+					<input type="radio" name="gender" id="other" />
+					<label for="other">Other</label>
+				</div>
+				<div>
+					<label for="cities">Choose your city:</label>
+					<select id="cities">
+						<option>Thohoyandou</option>
+						<option>Polokwane</option>
+						<option>Giyani</option>
+						<option>Tzaneen</option>
+					</select>
+				</div>
+				<div>
+					<label for="greenies">Enter your preferred greenies:</label>
+					<select id="greenies">
+						<optgroup label="Fruits">
+							<option>Mango</option>
+							<option>Grapefruit</option>
+							<option>Oranges</option>
+							<option>Banana</option>
+						</optgroup>
+						<optgroup label="Vegetables">
+							<option>Spinach</option>
+							<option>Cabbage</option>
+							<option>Potatoes</option>
+						</optgroup>
+					</select>
+				</div>
+				<div>
+					<label for="programming"
+						>Enter your favourite programming language:</label
+					>
+					<input
+						type="text"
+						list="languages"
+						placeholder="Enter favourite programming language"
+					/>
+					<datalist name="languages" id="languages">
+						<option>JavaScript</option>
+						<option>C++</option>
+						<option>Java</option>
+						<option>Dart</option>
+						<option>C#</option>
+					</datalist>
+				</div>
+				<button>Submit</button>
+			</form>
+		</section>
+	</body>
+</html>
